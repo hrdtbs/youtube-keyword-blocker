@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "開発用にChrome を起動する",
+      "url": "https://www.youtube.com/",
+      "webRoot": "${workspaceFolder}",
+      "runtimeArgs": ["--load-extension=${workspaceFolder}"]
+    }
+  ]
+}

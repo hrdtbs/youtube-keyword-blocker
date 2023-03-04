@@ -1,0 +1,14 @@
+{
+  "name": "YouTube Keyword Blocker",
+  "description": "Block videos on YouTube based on keywords",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "scripting", "storage"],
+  "host_permissions": ["https://www.youtube.com/"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
